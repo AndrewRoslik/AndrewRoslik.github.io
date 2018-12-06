@@ -1,0 +1,204 @@
+@media screen and ( max-width: 1064px ){
+    .mainContent {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .footerBlock {
+        margin-right: 10px;
+    }
+}
+
+@media screen and ( max-width: 1015px ) {
+    html {
+        font-size: 95%;
+    }
+    .mainBanner {
+        margin-top: 6.25rem;
+    }
+}
+
+@media screen and ( max-width: 992px ) {
+    html {
+        font-size: 90%;
+    }
+    .mainContent {
+        display: block;
+        position: relative;
+    }
+    .articlesBlock {
+        width: 100%
+    }
+    .mainArticle {
+        width: 100%;
+    }
+    .mainArticle__content {
+        justify-content: flex-start;
+    }
+    .mainArticle__content p {
+        margin-top: 10px;
+    }
+    article {
+        width: 69%;
+    }
+    .sidebar {
+        width: 31%;
+        position: absolute;
+        top: 25%;
+        right: 0;
+    }
+}
+
+@media screen and ( max-width: 920px ) {    article {
+        justify-content: space-around;
+        max-width: 35.3125rem;
+    }
+    .sidebar {
+        width: fit-content;
+        top: 16%;
+    }
+    .mainBanner {
+        margin-top: 5.25rem;
+    }
+}
+
+@media screen and ( max-width: 825px ) {
+    article {
+        justify-content: space-evenly;
+    }
+    .mainBanner {
+        margin-top: 4.25rem;
+    }
+}
+
+@media screen and ( max-width: 805px ) {
+    article {
+        display: block;
+        max-width: 60%;
+    }
+    section {
+        min-height: 9rem;
+        margin-top: 2rem;
+    }
+    .sidebar {
+        top: 16%;
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+    html {
+        font-size: 85%;
+    }
+    .fa-bars {
+        display: block;
+        text-align: right;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: white;
+    }
+    .burgerMenu li:hover .submenu {
+        display: block;
+        position: absolute;
+        left: -5rem;
+        height: 12rem;
+    }
+
+    .submenu__item a {
+        display: inline-block;
+        font-size: 1.25rem;
+        cursor: pointer;
+        width: 95px;
+        text-align: center;
+        padding: 13px 0;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        margin-top: 2px;
+        text-decoration: none;
+    }
+    .submenu__item a:hover {
+        color: white;
+        background-color: black;
+    }
+    .submenu__item-active a {
+        color: white;
+        background-color: black;
+    }
+    .headerMenu {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 745px ) {
+    article {
+        max-width: 55%;
+    }
+}
+
+@media screen and ( max-width: 665px ) {
+    html {
+        font-size: 82%;
+    }
+    .mainBanner {
+        display: block;
+        margin-top: 3.25rem;
+    }
+    .mainBannerTextblock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .mainBannerImgContent {
+        margin-top: 2rem;
+    }
+    .mainContent {
+        margin-right: 0;
+    }
+    .articlesBlock {
+        padding-right: 10px;
+    }
+    .mainArticle {
+        display: block;
+    }
+    .mainArticle__banner {
+        margin: 0 auto;
+    }
+    .mainArticle__title {
+        margin-top: 10px;
+    }
+    .mainArticleManager__arrow {
+        width: 23px;
+        height: 33px;
+    }
+    article {
+        max-width: 100%;
+        width: 100%;
+    }
+    section {
+        min-height: 6.5rem;
+    }
+    .sidebar {
+        position: static;
+        margin: 25px auto 0;
+    }
+}
+
+@media screen and ( max-width: 639px ) {
+    section {
+        min-height: 7.5rem;
+    }
+}
+
+@media screen and ( max-width: 605px ) {
+    section {
+        min-height: 8rem;
+    }
+}
+
+@media screen and ( max-width: 415px ) {
+    section {
+        min-height: 9rem;
+    }
+}
+

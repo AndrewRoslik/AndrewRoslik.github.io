@@ -171,6 +171,7 @@
         width: 23px;
         height: 33px;
     }
+    
     article {
         max-width: 100%;
         width: 100%;
@@ -199,6 +200,18 @@
 @media screen and ( max-width: 415px ) {
     section {
         min-height: 9rem;
+    }
+}
+
+@media screen and ( max-width: 333px ) {
+    .mainContent {
+        margin: auto;
+    }
+    .articlesBlock {
+        padding-right: 0;
+    }
+    .mainArticle__content, article {
+        padding: 0 10px;
     }
 }
 

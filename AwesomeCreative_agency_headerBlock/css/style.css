@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+.linkButton {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #00e0d0;
+    border-radius: 2px;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.imageBackground {
+    margin: 0 auto;
+    background: center center no-repeat;
+    background-size: cover;
+    color: #ffffff
+}
+
+/*header block*/
+.headerBackground {
+    background-image: url("../img/Header_background.jpg");
+}
+
+.topRow {
+    margin: 0 auto 9.5625rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*header logo*/
+.headerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.headerLogo__element img {
+    display: block;
+}
+
+.headerLogo__element-right {
+    padding: 0 0 0 0.6875rem;
+    margin-top: -4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 100;
+    color: #00e0d0;
+}
+/*end header logo*/
+
+/*header menu*/
+.headerMenu ul {
+    display: flex;
+    width: 33.125rem;
+    justify-content: space-between;
+}
+
+.headerMenu__item a {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 0.8125rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.headerMenu__item a:hover {
+    color: #00e0d0;
+}
+
+.headerMenu__item-active a {
+    color: #00e0d0;
+}
+/*end header menu*/
+
+/*slider header block*/
+.headerSlider {
+    padding-bottom: 4.375rem;
+}
+
+.slide {
+    display: none;
+    margin: auto;
+    max-width: 48.75rem;
+    text-align: center;
+}
+
+.slide__headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    display: inline-block;
+    width: 31.875rem;
+    text-align-last: justify;
+}
+
+.slide__line {
+    margin: 1.75rem auto 1.5625rem;
+    border-bottom: 1px solid #00e0d0;
+    width: 3.125rem;
+}
+
+.slideArticle {
+    line-height: 1.5rem;
+    margin-bottom: 2.8125rem;
+}
+
+.slideArticle__string {
+    display: block;
+    text-align-last: justify;
+    margin: 0 auto;
+}
+
+.slideArticle__string-top {
+    max-width: 48.125rem;
+}
+
+.slideArticle__string-mid {
+    max-width: 44.5rem;
+}
+
+.slideArticle__string-bottom {
+    max-width: 27.5rem;
+}
+
+.link_learnTheme {
+    padding: 0.75rem 0.9375rem 0.6875rem;
+}
+
+.sliderDots {
+    display: flex;
+    justify-content: space-between;
+    width: 3.4375rem;
+    margin: 7.9375rem auto 0;
+}
+
+.sliderDots__dot {
+    cursor: pointer;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 50%;
+    border: 1px solid #bab9bc;
+    transition: background-color 0.6s ease;
+}
+
+.active, .sliderDots__dot:hover {
+    background-color: #00e0d0;
+    border-color: #00e0d0;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+/*end slider header block*/
+/*end header block*/

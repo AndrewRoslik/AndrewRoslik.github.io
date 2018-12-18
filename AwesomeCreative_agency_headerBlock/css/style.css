@@ -131,26 +131,12 @@ img {
 }
 
 .slideArticle {
-    line-height: 1.5rem;
     margin-bottom: 2.8125rem;
-}
-
-.slideArticle__string {
-    display: block;
-    text-align-last: justify;
-    margin: 0 auto;
-}
-
-.slideArticle__string-top {
-    max-width: 48.125rem;
-}
-
-.slideArticle__string-mid {
-    max-width: 44.5rem;
-}
-
-.slideArticle__string-bottom {
-    max-width: 27.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
 }
 
 .link_learnTheme {
